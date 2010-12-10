@@ -23,7 +23,7 @@ class LiftHazzleCastSampleProject(info: ProjectInfo) extends DefaultWebProject(i
   //Option(System.getProperty("jetty.port")).map(_.toInt) getOrElse 8080
   
   // dependencies
-  val webkit = "net.liftweb" %% "lift-webkit" % "2.2-SNAPSHOT" % "compile->default"
+  val webkit = "net.liftweb" %% "lift-webkit" % "2.3-SNAPSHOT" % "compile->default"
   
   // environment
   val jetty6 = "org.mortbay.jetty" % "jetty" % "6.1.21" % "test"

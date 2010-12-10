@@ -6,7 +6,7 @@ import net.liftweb.sitemap.{SiteMap, Menu, Loc}
 class Boot {
   def boot {
     // where to search snippet
-    LiftRules.addToPackages("eu.getintheloop")
+    LiftRules.addToPackages("net.liftweb.sample")
     
     // build sitemap
     val entries = List(Menu("Home") / "index") ::: Nil

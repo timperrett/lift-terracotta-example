@@ -1,0 +1,3 @@
+h2. Lift + Terracotta Example
+
+This example project demonstrates how one can distribute data between Lift applications using ContainerVar and the distributed clustering system, Terracotta.
